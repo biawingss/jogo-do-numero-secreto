@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 40;
+let numeroLimite = 30;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1
 //document.querySelector é utilizado para selecionar uma parte do html
@@ -17,7 +17,7 @@ function exibirMensagemInicial()
 {
     
     exibirTextoNaTela('.texto__titulo', 'Jogo do número secreto');
-    exibirTextoNaTela('.texto__paragrafo', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('.texto__paragrafo', 'Escolha um número entre 1 e 30');
 
 
 }
